@@ -1,0 +1,49 @@
+.parent{
+    height: 80vh;
+    display: flex;
+    background-color: grey;
+    width: 540px;
+    box-shadow: -4px 2px 7px 20px rgba(125,119,119,0.75);
+-webkit-box-shadow: -4px 2px 7px 20px rgba(125,119,119,0.75);
+-moz-box-shadow: -4px 2px 7px 20px rgba(125,119,119,0.75);
+
+}
+.flex-item{
+    width: 60px;
+    height: 60px;
+    background:grey;
+    font-size: 15px;
+    border: groove;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.fas fa-bomb{
+    width: 50px;
+}
+.row .nbr5{
+    color: green;
+}
+.row .bottom{
+    border-bottom:4px dotted #191716;
+}
+.flex-item{
+    border-bottom:4px dotted #191716;
+    border-right: 4px dotted #191716;;
+}
+.cube1{
+    font-size: large;
+}
+.sizeicon{
+    width: 90%;
+}
+
+
+
